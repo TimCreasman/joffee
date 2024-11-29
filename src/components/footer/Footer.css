@@ -1,5 +1,5 @@
 footer {
     width: 100vw;
-    height: 33px;
+    height: var(--footer-height);
     text-align: center;
 }
