@@ -1,6 +1,6 @@
 :root {
-  --header-height: 33px;
-  --footer-height: 33px;
+  --header-height: 50px;
+  --footer-height: 50px;
 }
 
 body {
@@ -10,6 +10,6 @@ body {
 }
 
 main {
-  height: calc(100vh - (var(--header-height) + var(--footer-height)));
+  height: 100vh;
 }
 

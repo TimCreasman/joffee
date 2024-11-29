@@ -1,0 +1,12 @@
+.map-container {
+  height: 100%;
+}
+.mapboxgl-ctrl-bottom-left {
+  left: 0;
+  bottom: var(--footer-height);
+}
+.mapboxgl-ctrl-bottom-right {
+  right: 0;
+  bottom: var(--footer-height);
+}
+

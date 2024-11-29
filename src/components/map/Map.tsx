@@ -1,5 +1,5 @@
 import 'mapbox-gl/dist/mapbox-gl.css';
-import MapGL, { Control, Viewport } from "solid-map-gl";
+import MapGL, { Viewport } from "solid-map-gl";
 import "./Map.css";
 import { createSignal } from "solid-js";
 
@@ -12,6 +12,7 @@ export default function Map() {
 
   return (
     <MapGL
+      class="map-container"
       options={{
         style: "mb:light"
       }}
