@@ -1,0 +1,13 @@
+.map-container {
+  height: 100vh;
+  margin-top: calc(var(--footer-height) * -1);
+}
+.mapboxgl-ctrl-bottom-left {
+  left: 0;
+  bottom: var(--footer-height);
+}
+.mapboxgl-ctrl-bottom-right {
+  right: 0;
+  bottom: var(--footer-height);
+}
+
