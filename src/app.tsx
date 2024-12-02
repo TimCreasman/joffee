@@ -10,7 +10,7 @@ const Layout = (props: RouteSectionProps) => {
     return (
         <Suspense>
             <Header/>
-            <main>
+            <main class="h-[calc(100vh-(var(--header-height)+var(--footer-height)))] mt-[--header-height]">
               {props.children}
             </main>
             <Footer/>

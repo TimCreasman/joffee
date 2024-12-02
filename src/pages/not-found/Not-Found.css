@@ -7,11 +7,3 @@
   align-items: center;
 }
 
-.four-o-four {
-  font-size: clamp(2rem, 20cqw, 8rem);
-}
-
-.message {
-  font-size: clamp(1rem, 5cqw, 2rem);
-}
-
