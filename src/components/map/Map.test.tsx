@@ -8,9 +8,5 @@ describe("<Map />", () => {
       const map = getByRole('generic');
       expect(map).toBeInTheDocument();
   });
-
-  it("should show error message on map error", async () => {
-    vi.mock()
-  });
 });
 
