@@ -1,3 +1,4 @@
+import { resolve } from 'path';
 import solid from "vite-plugin-solid";
 import { defineConfig } from "vitest/config";
 
@@ -14,6 +15,8 @@ export default defineConfig({
     // or both out to improve performance:
     // threads: false,
     // isolate: false,
+    setupFiles: [resolve(__dirname, 'vitest.setup.ts')],
+    globals: true
   },
   resolve: {
     conditions: ["development", "browser"],

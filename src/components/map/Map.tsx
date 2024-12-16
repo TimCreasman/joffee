@@ -12,7 +12,7 @@ export default function Map() {
 
   return (
     <MapGL
-      class="map-container"
+      class="h-screen mt-[calc(var(--footer-height)*-1)]"
       options={{
         style: "mb:light"
       }}

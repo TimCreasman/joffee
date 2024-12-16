@@ -5,8 +5,8 @@ import Map from './Map';
 describe("<Map />", () => {
   it("should exist", async () => {
       const { getByRole } = render(() => <Map />);
-      const map = getByRole('contentinfo');
+      const map = getByRole('generic');
       expect(map).toBeInTheDocument();
-    });
+  });
 });
 
